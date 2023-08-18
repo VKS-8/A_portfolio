@@ -27,7 +27,8 @@ main>.container {
   width: 100%;
 }
 
-@media (max-width: 1300px) {
+@media  screen and (max-width: 1300px),
+        screen and (max-height: 750px) {
 
   .homeBG {
     background: url(/img/pexels-steve-johnson-8896511-BG-mobile-topbottom-margins.png);
